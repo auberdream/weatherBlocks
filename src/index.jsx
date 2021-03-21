@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import { ThemeProvider } from 'styled-components';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import theme from './style/theme';
 
 const queryClient = new QueryClient();
 
 ReactDOM.render(
   <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <App />
-    </QueryClientProvider>
+    <ThemeProvider theme={theme}>
+      <QueryClientProvider client={queryClient}>
+        <App />
+      </QueryClientProvider>
+    </ThemeProvider>
   </React.StrictMode>,
   // eslint-disable-next-line no-undef
   document.getElementById('root'),
