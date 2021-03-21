@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { QueryClient, QueryClientProvider } from 'react-query'
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient();
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +13,7 @@ ReactDOM.render(
       <App />
     </QueryClientProvider>
   </React.StrictMode>,
+  // eslint-disable-next-line no-undef
   document.getElementById('root'),
 );
 
