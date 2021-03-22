@@ -12,13 +12,14 @@ export default ({
     elevation="small"
     style={{
       position: 'absolute',
-      top: position.y + 20, left: position.x + 10
+      top: position.y + 20,
+      left: position.x + 10,
     }}
     {...props}
   >
     <Box direction="row" align="center" justify="between" wrap={false}>
       <Text size="small" color="gray">{date}</Text>
-      <Text color="gray">{`${temperature}°`}</Text>
+      <Text color="gray">{temperature}</Text>
     </Box>
     <Box pad={{ vertical: 'small' }}>
       <Text color="neutral-2">{condition}</Text>

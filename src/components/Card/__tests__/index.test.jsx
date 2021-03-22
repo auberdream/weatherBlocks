@@ -3,15 +3,15 @@ import renderer from 'react-test-renderer';
 import { Grommet } from 'grommet';
 
 import theme from '../../../style/theme';
-import WeatherCard from '..';
+import Card from '..';
 
 it('Renders correctly', () => {
   const tree = renderer.create(
     <Grommet theme={theme}>
-      <WeatherCard
+      <Card
         date="01/01/1970 12:00"
         condition="Cloudy"
-        temperature="12"
+        temperature="12°"
         rainChance="25"
         snowChance="0"
         position={{ x: 150, y: 300 }}

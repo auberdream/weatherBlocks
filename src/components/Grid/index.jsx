@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { format } from 'date-fns';
 
-import { Column, Cell, WeatherCard } from '../../components';
+import Column from '../Column';
+import Cell from '../Cell';
+import Card from '../Card';
 import Styled from './styles';
 import weather from './weather';
 
@@ -26,7 +28,10 @@ export default ({ data }) => {
               onMouseLeave={() => setCard(initialCard)}
               onMouseEnter={(e) => setCard({
                 show: true,
-                position: { x: e.pageX, y: e.pageY },
+                position: {
+                  x: e.pageX,
+                  y: e.pageY,
+                },
                 data: h,
               })}
               color={weather[h.condition.code]}
@@ -35,11 +40,11 @@ export default ({ data }) => {
         </Column>
       ))}
       {card.show && (
-        <WeatherCard
+        <Card
           data-testid="weathercard"
           date={format(date, 'dd/MM/yyyy H:mm')}
           condition={card.data.condition.text}
-          temperature={card.data.temp_c + '°'}
+          temperature={`${card.data.temp_c}°`}
           rainChance={card.data.chance_of_rain}
           snowChance={card.data.chance_of_snow}
           position={card.position}

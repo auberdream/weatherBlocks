@@ -3,13 +3,13 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import { Grommet } from 'grommet';
 
 import theme from '../../../style/theme';
-import Main from '..';
-import mocks from '../__mocks__/index.mock'
+import Grid from '..';
+import mocks from '../../../__mocks__/index.mock'
 
 it('Renders the correct amount of columns', () => {
     render(
         <Grommet theme={theme}>
-            <Main data={mocks.weather} />
+            <Grid data={mocks.weather} />
         </Grommet>
     );
 
@@ -21,7 +21,7 @@ it('Renders the correct amount of columns', () => {
 it('Renders the correct amount of cells', () => {
     render(
         <Grommet theme={theme}>
-            <Main data={mocks.weather} />
+            <Grid data={mocks.weather} />
         </Grommet>
     );
 
@@ -35,7 +35,7 @@ it('Renders the correct amount of cells', () => {
 it('Hovering over a cell shows the weather card', async () => {
     render(
         <Grommet theme={theme}>
-            <Main data={mocks.weather} />
+            <Grid data={mocks.weather} />
         </Grommet>
     );
 
@@ -49,7 +49,7 @@ it('Hovering over a cell shows the weather card', async () => {
 it('Hovering over a cell shows the correct info on the weather card', async () => {
     render(
         <Grommet theme={theme}>
-            <Main data={mocks.weather} />
+            <Grid data={mocks.weather} />
         </Grommet>
     );
 
@@ -77,7 +77,7 @@ it('Hovering over a cell shows the correct info on the weather card', async () =
 it('Leaving a cell stops showing the weathercard', async () => {
     render(
         <Grommet theme={theme}>
-            <Main data={mocks.weather} />
+            <Grid data={mocks.weather} />
         </Grommet>
     );
 

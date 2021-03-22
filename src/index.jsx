@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Grommet } from 'grommet';
 
-import App from './App';
+import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import theme from './style/theme';
 import GlobalStyle from './style/global';
