@@ -2,9 +2,10 @@
 
 A little project to make some vibey colours out of a weather API. It shows 3 columns by default (to represent the next three days) with 24 rows each (to represent the hours in the day) which change colour depending on the weather.
 
-### Getting started
+### Getting started locally
 
 Clone and move into the root of this file from the CL
+Get an API key from https://www.weatherapi.com/
 
 ```bash
 yarn 
