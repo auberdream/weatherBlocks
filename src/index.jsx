@@ -6,12 +6,14 @@ import { ThemeProvider } from 'styled-components';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import theme from './style/theme';
+import GlobalStyle from './style/global';
 
 const queryClient = new QueryClient();
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <QueryClientProvider client={queryClient}>
         <App />
       </QueryClientProvider>
