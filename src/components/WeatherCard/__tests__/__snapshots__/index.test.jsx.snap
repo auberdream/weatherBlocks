@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
+>
+  <div
+    className="StyledBox-sc-13pk1d4-0 exUXVR"
+    style={
+      Object {
+        "left": 160,
+        "position": "absolute",
+        "top": 320,
+      }
+    }
+  >
+    <div
+      className="StyledBox-sc-13pk1d4-0 jmuHez"
+    >
+      <span
+        className="StyledText-sc-1sadyjn-0 bSYtvL"
+      >
+        01/01/1970 12:00
+      </span>
+      <span
+        className="StyledText-sc-1sadyjn-0 cDuYNf"
+      >
+        12°
+      </span>
+    </div>
+    <div
+      className="StyledBox-sc-13pk1d4-0 iBWTSp"
+    >
+      <span
+        className="StyledText-sc-1sadyjn-0 gdmUOw"
+      >
+        Cloudy
+      </span>
+    </div>
+    <div
+      className="StyledBox-sc-13pk1d4-0 dYebPD"
+    >
+      <span
+        className="StyledText-sc-1sadyjn-0 gOVGlS"
+      >
+        Rain - 25%
+      </span>
+    </div>
+    <div
+      className="StyledBox-sc-13pk1d4-0 dYebPD"
+    >
+      <span
+        className="StyledText-sc-1sadyjn-0 gOVGlS"
+      >
+        Snow - 0%
+      </span>
+    </div>
+  </div>
+</div>
+`;

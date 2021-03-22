@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly for cloudy 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
+>
+  <div
+    className="sc-bdfBwQ efSfne"
+    color="cloudy"
+  />
+</div>
+`;
+
+exports[`Renders correctly for fog 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
+>
+  <div
+    className="sc-bdfBwQ iBCdtJ"
+    color="fog"
+  />
+</div>
+`;
+
+exports[`Renders correctly for mist 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
+>
+  <div
+    className="sc-bdfBwQ gaXIwI"
+    color="mist"
+  />
+</div>
+`;
+
+exports[`Renders correctly for rain 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
+>
+  <div
+    className="sc-bdfBwQ fplCfe"
+    color="rain"
+  />
+</div>
+`;
+
+exports[`Renders correctly for sleet 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
+>
+  <div
+    className="sc-bdfBwQ bcqtNc"
+    color="sleet"
+  />
+</div>
+`;
+
+exports[`Renders correctly for snow 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
+>
+  <div
+    className="sc-bdfBwQ gorcfM"
+    color="snow"
+  />
+</div>
+`;
+
+exports[`Renders correctly for sunny 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
+>
+  <div
+    className="sc-bdfBwQ brQTMF"
+    color="sunny"
+  />
+</div>
+`;
+
+exports[`Renders correctly for thunder 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
+>
+  <div
+    className="sc-bdfBwQ cGGPJe"
+    color="thunder"
+  />
+</div>
+`;
