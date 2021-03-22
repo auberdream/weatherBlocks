@@ -12,8 +12,8 @@ export default ({
     elevation="small"
     style={{
       position: 'absolute',
-      top: position.y + 20,
-      left: position.x + 10,
+      top: position.y,
+      left: position.x,
     }}
     {...props}
   >

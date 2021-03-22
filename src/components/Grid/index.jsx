@@ -29,8 +29,8 @@ export default ({ data }) => {
               onMouseEnter={(e) => setCard({
                 show: true,
                 position: {
-                  x: e.pageX,
-                  y: e.pageY,
+                  x: e.pageX + 20,
+                  y: e.pageY + 10,
                 },
                 data: h,
               })}

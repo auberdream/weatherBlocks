@@ -5,7 +5,7 @@ exports[`Renders correctly for cloudy 1`] = `
   className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
 >
   <div
-    className="sc-bdfBwQ efSfne"
+    className="sc-bdfBwQ jlnUAq"
     color="cloudy"
   />
 </div>
@@ -16,7 +16,7 @@ exports[`Renders correctly for fog 1`] = `
   className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
 >
   <div
-    className="sc-bdfBwQ iBCdtJ"
+    className="sc-bdfBwQ cyFUSF"
     color="fog"
   />
 </div>
@@ -27,7 +27,7 @@ exports[`Renders correctly for mist 1`] = `
   className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
 >
   <div
-    className="sc-bdfBwQ gaXIwI"
+    className="sc-bdfBwQ cRmnOk"
     color="mist"
   />
 </div>
@@ -38,7 +38,7 @@ exports[`Renders correctly for rain 1`] = `
   className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
 >
   <div
-    className="sc-bdfBwQ fplCfe"
+    className="sc-bdfBwQ jtWZpm"
     color="rain"
   />
 </div>
@@ -49,7 +49,7 @@ exports[`Renders correctly for sleet 1`] = `
   className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
 >
   <div
-    className="sc-bdfBwQ bcqtNc"
+    className="sc-bdfBwQ cWnJKE"
     color="sleet"
   />
 </div>
@@ -60,7 +60,7 @@ exports[`Renders correctly for snow 1`] = `
   className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
 >
   <div
-    className="sc-bdfBwQ gorcfM"
+    className="sc-bdfBwQ eSAyLg"
     color="snow"
   />
 </div>
@@ -71,7 +71,7 @@ exports[`Renders correctly for sunny 1`] = `
   className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
 >
   <div
-    className="sc-bdfBwQ brQTMF"
+    className="sc-bdfBwQ emqQwp"
     color="sunny"
   />
 </div>
@@ -82,7 +82,7 @@ exports[`Renders correctly for thunder 1`] = `
   className="StyledGrommet-sc-19lkkz7-0 djOnwZ"
 >
   <div
-    className="sc-bdfBwQ cGGPJe"
+    className="sc-bdfBwQ bXzjgO"
     color="thunder"
   />
 </div>
