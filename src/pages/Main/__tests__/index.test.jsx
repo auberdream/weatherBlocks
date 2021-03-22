@@ -46,6 +46,34 @@ it('Hovering over a cell shows the weather card', async () => {
     })
 })
 
+it('Hovering over a cell shows the correct info on the weather card', async () => {
+    render(
+        <Grommet theme={theme}>
+            <Main data={mocks.weather} />
+        </Grommet>
+    );
+
+    fireEvent.mouseEnter(screen.getAllByTestId('column-1-cell')[0])
+
+    await waitFor(() => {
+        expect(screen.queryByText('Sunny')).toBeInTheDocument()
+        expect(screen.queryByText('Rain - 0%')).toBeInTheDocument()
+        expect(screen.queryByText('Snow - 0%')).toBeInTheDocument()
+        expect(screen.queryByText('22/03/2021 0:00')).toBeInTheDocument()
+        expect(screen.queryByText('20°')).toBeInTheDocument()
+    })
+
+    fireEvent.mouseEnter(screen.getAllByTestId('column-1-cell')[3])
+
+    await waitFor(() => {
+        expect(screen.queryByText('Rain')).toBeInTheDocument()
+        expect(screen.queryByText('Rain - 10%')).toBeInTheDocument()
+        expect(screen.queryByText('Snow - 0%')).toBeInTheDocument()
+        expect(screen.queryByText('22/03/2021 3:00')).toBeInTheDocument()
+        expect(screen.queryByText('3°')).toBeInTheDocument()
+    })
+})
+
 it('Leaving a cell stops showing the weathercard', async () => {
     render(
         <Grommet theme={theme}>

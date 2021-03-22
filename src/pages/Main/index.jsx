@@ -14,6 +14,7 @@ const initialCard = {
 export default ({ data }) => {
   const [card, setCard] = useState(initialCard);
   const date = card.data.time && new Date(card.data.time);
+
   return (
     <Styled.WeatherGrid columns={data.forecast.forecastday.length}>
       {data.forecast.forecastday.map((day, i) => (
@@ -38,7 +39,7 @@ export default ({ data }) => {
           data-testid="weathercard"
           date={format(date, 'dd/MM/yyyy H:mm')}
           condition={card.data.condition.text}
-          temperature={card.data.temp_c}
+          temperature={card.data.temp_c + '°'}
           rainChance={card.data.chance_of_rain}
           snowChance={card.data.chance_of_snow}
           position={card.position}
