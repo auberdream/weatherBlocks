@@ -7,6 +7,10 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto';
+}
+
 /* Remove default margin */
 body,
 h1,

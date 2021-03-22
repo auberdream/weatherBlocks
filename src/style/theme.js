@@ -11,4 +11,7 @@ export default {
       fog: '#4cc9f0',
     },
   },
+  select: {
+    background: '#FFF',
+  },
 };
